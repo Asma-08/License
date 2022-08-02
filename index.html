@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    
+    <h1>Registration Form</h1>
+    <p class="heading"> Please fill out this form with required information</p>
+    <form action="">
+    <fieldset>
+        <label for="">Enter Your First Name: <br>
+            <input class="box" type="text" name="First name" value="First name" required>
+        </label> <br>
+        <label for="">Enter Your Last Name: <br>
+            <input class="box" type="text" name="Last name" value="Last name" required>
+        </label><br>
+        <label for="">Enter Your Email: <br>
+             <input class="box" type="email" name="Email" value="Email" required>
+        </label> <br>
+        <label for="">Create a New Password: <br>
+            <input class="box" type="password" name="Create a new password " value="Create a new password" required>
+        </label>
+    </fieldset>
+    <hr>
+    
+    <label for="">
+        <input type="radio" name="radio">Personal Account
+    </label> <br>
+    <label for="">
+        <input type="radio" name="radio">Business Account
+    </label> <br>
+    <label for="">
+        <input type="checkbox">
+        I accept the <a href="#">terms and condition</a>
+    </label>
+    <hr>
+    <fieldset >
+        <label for="">Upload a profile picture: <br>
+            <input class="file" type="file">
+        </label>
+    </fieldset>
+    <label for="">
+       Input your age: <br> <input class="box" type="age">
+    </label> <br>
+    <label for=""> How did you hear about us? <br>
+        <select name="About us" id="">
+            <option class="select" value="">(select one)</option>
+            <option value="">website</option>
+        </select>
+    </label> <br>
+    <label for=""> Provide a bio: <br>
+       <textarea class="bio" name="bio" id="" cols="30" rows="10" placeholder="Enter bio"></textarea>
+    </label> <br>
+    <label class="submit" for="">
+        <input class="Submit" type="submit">
+    </label>
+
+</form>
+</body>
+</html>

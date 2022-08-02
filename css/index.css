@@ -1,0 +1,56 @@
+body{
+    background-color: coral;
+}
+.file{
+    background-color:blackSS;
+    height: 25px;
+    width: 350px;
+    color: white;
+}
+.box{
+    background-color:black;
+    width: 350px;
+}
+.bio{
+    background-color: black;
+    height: 40px;
+    width: 370px;
+}
+h1{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+}
+form{
+    margin-left: 400px;
+    margin-top: 25px;
+}
+fieldset{
+    border: none;
+}
+hr{
+    
+    width: 370px;
+    margin-left: 2px;
+    
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+    
+
+}
+.submit{
+    margin-left: 100px;
+}
+.Submit{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+    background-color: rgb(79, 76, 76);
+    border-color: white;
+}
+
+select{
+    
+    padding-right: 280px;
+}
